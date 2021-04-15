@@ -1,18 +1,18 @@
 jobs:
 
-- job: Ubuntu_16.04
+- job: Ubuntu_1604
   pool:
     vmImage: ubuntu-16.04
   steps:
   - template: ./steps.yaml
 
-- job: Ubuntu_18.04
+- job: Ubuntu_1804
   pool:
     vmImage: ubuntu-18.04
   steps:
   - template: ./steps.yaml
 
-- job: Ubuntu_20.04
+- job: Ubuntu_2004
   pool:
     vmImage: ubuntu-20.04
   steps:
