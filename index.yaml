@@ -1,18 +1,18 @@
 jobs:
 
-- job: Ubuntu-16.04
+- job: Ubuntu_16.04
   pool:
     vmImage: ubuntu-16.04
   steps:
   - template: ./steps.yaml
 
-- job: Ubuntu-18.04
+- job: Ubuntu_18.04
   pool:
     vmImage: ubuntu-18.04
   steps:
   - template: ./steps.yaml
 
-- job: Ubuntu-20.04
+- job: Ubuntu_20.04
   pool:
     vmImage: ubuntu-20.04
   steps:
@@ -30,13 +30,13 @@ jobs:
   steps:
   - template: ./steps.yaml
 
-- job: Macos-10.14
+- job: Macos_1014
   pool:
     vmImage: macos-10.14
   steps:
   - template: ./steps.yaml
 
-- job: Macos-10.15
+- job: Macos_1015
   pool:
     vmImage: macos-10.15
   steps:
