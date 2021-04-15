@@ -10,7 +10,7 @@ parameters:
   default: false
 
 steps:
-- task: NodeTool@0
+- task: NodeToolM@0
   inputs:
     versionSpec: ${{ parameters.nodeVersionPattern }}
     checkLatest: ${{ parameters.checkLatest }}
